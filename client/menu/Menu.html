@@ -1,3 +1,7 @@
 <template name="Menu">
-	<p>this is the menu</p>
+	{{#each menuRecipes}}
+
+			{{> Recipe}}
+
+	{{/each}}
 </template>
