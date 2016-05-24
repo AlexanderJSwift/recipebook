@@ -32,10 +32,8 @@ RecipeSchema = new SimpleSchema({
 	inMenu:{
 		type: Boolean,
 		defaultValue:false,
-		optional: true,
-		autoform: {
-			type:"hidden"
-		}
+		optional: true
+
 	},
 	author: {
 		type:String,
